@@ -22,7 +22,7 @@ smd(
       let _0x446f76 = _0x543e4e.toLowerCase().split(" ")[0].trim();
       if (_0x446f76 === "on" || _0x446f76 === "enable" || _0x446f76 === "act") {
         if (bgmm.antiviewonce === "true") {
-          return await _0x5c3dd1.reply("*AntiViewOnce already enabled!*");
+          return await _0x5c3dd1.reply("*AntiViewOnce already enabled! `Reverse King`*");
         }
         await bot_.updateOne(
           {
@@ -32,14 +32,14 @@ smd(
             antiviewonce: "true",
           }
         );
-        return await _0x5c3dd1.reply("*AntiViewOnce Succesfully enabled*");
+        return await _0x5c3dd1.reply("*AntiViewOnce Succesfully enabled `Reverse King`*");
       } else if (
         _0x446f76 === "off" ||
         _0x446f76 === "disable" ||
         _0x446f76 === "deact"
       ) {
         if (bgmm.antiviewonce === "false") {
-          return await _0x5c3dd1.reply("*AntiViewOnce already disabled*");
+          return await _0x5c3dd1.reply("*AntiViewOnce already disabled `Reverse King`*");
         }
         await bot_.updateOne(
           {
@@ -49,7 +49,7 @@ smd(
             antiviewonce: "false",
           }
         );
-        return await _0x5c3dd1.reply("*AntiViewOnce Succesfully deactivated*");
+        return await _0x5c3dd1.reply("*AntiViewOnce Succesfully deactivated `Reverse King`*");
       } else {
         return await _0x5c3dd1.send(
           "*_Use on/off to enable/disable antiViewOnce!_*"
