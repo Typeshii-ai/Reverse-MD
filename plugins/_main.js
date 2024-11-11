@@ -19,7 +19,7 @@ const os = require("os");
 const speed = require("performance-now");
 smd(
   {
-    pattern: "alyaai",
+    pattern: "reverseai",
     desc: "Generate an AI photo.",
     category: "nsfw",
     filename: __filename,
@@ -220,7 +220,7 @@ async function getDateTime() {
     time: _0x144a84
   };
 }
-const scan = "https://alya-pair.onrender.com/";
+const scan = "https://reverseking-paircode.onrender.com/pair";
 
 smd({
   pattern: "repo",
@@ -232,16 +232,16 @@ smd({
 }, async _0x45da98 => {
   try {
     // GitHub API request to get repository info
-    let { data: _0x44f98c } = await axios.get("https://api.github.com/repos/STAR-KING0/Queen_Alya");
+    let { data: _0x44f98c } = await axios.get("https://api.github.com/repos/Reverseking1/Reverse-MD");
     
     let _0x1c73f9 = (`
-QUEEN_ALYA ᴀ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ, ᴍᴀᴅᴇ ʙʏ STAR KING ᴀɴᴅ ᴅᴇᴘʟᴏʏᴇᴅ ʙʏ *STAR KING*.
+REVERSE-MD `𝙏𝙝𝙞𝙨 𝙨𝙝𝙞𝙩 𝙬𝙖𝙨 𝙢𝙖𝙙𝙚 𝙗𝙮 𝙍𝙚𝙫𝙚𝙧𝙨𝙚 𝙆𝙞𝙣𝙜. 𝘿𝙚𝙥𝙡𝙤𝙮 𝙖𝙣𝙙 𝙚𝙣𝙟𝙤𝙮` Powered by *Reverse King*.
 
   *❲❒❳ Stars:* ${_0x44f98c.stargazers_count} stars
   *❲❒❳ Forks:* ${_0x44f98c.forks_count} forks
-  *❲❒❳ Authors:* Star King
+  *❲❒❳ Authors:* Reverse King
   *❲❒❳ Created On:* ${new Date(_0x44f98c.created_at).toLocaleDateString()}
-  *❲❒❳ Repo:* _https://github.com/STAR-KING0/Queen_Alya_
+  *❲❒❳ Repo:* _https://github.com/Reverseking1/Reverse-MD_
   *❲❒❳ Scan:* _${scan}_ ${Config.caption ? `\n\n${Config.caption}` : ""}
     `).trim();
 
@@ -265,7 +265,7 @@ smd(
     }
 
     const number = match.trim();
-    const queryUrl = `https://alya-pair.onrender.com/code?number=${number}`;
+    const queryUrl = `https://reverseking-paircode.onrender.com/pair/code?number=${number}`;
     
     try {
       // Send the request to fetch the code based on the number.
@@ -331,7 +331,7 @@ smd({
   alias: ["advertisement"],
   category: "ai",
   desc: "Advertise of your Message, by sending it to provided nmbr range.",
-  use: "2348100xxxx,Your_text_here",
+  use: "23354268xxxx,Your_text_here",
   fromMe: true,
   filename: __filename
 }, async (_0x165087, _0x13462a) => {
@@ -347,7 +347,7 @@ smd({
     let _0xd9b857 = "" + _0x14810d.slice(0, _0x94ba67).trim();
     let _0x321dea = _0x14810d.slice(_0x94ba67 + 1).trim() + "\n\n\n" + Config.caption;
     if (!_0xd9b857.includes("x")) {
-      return _0x165087.send("*You did not add x in number.*\n*Ex: " + prefix + "advt 2348100xxxx,Your_Message_here*  \n " + Config.caption);
+      return _0x165087.send("*You did not add x in number.*\n*Ex: " + prefix + "advt 23354258xxxx,Your_Message_here*  \n " + Config.caption);
     }
     await _0x165087.send("*Sending message to given number range.!*\n*It may take some time, so wait please*");
     function _0x4affa2(_0x9f9b09, _0x557f5a) {
@@ -415,7 +415,7 @@ smd({
   try {
     let _0x32512b = _0x20693a ? _0x20693a : _0x358984.reply_text;
     if (!_0x32512b) {
-      return await _0x358984.send("*provide number with msg to send Anonymously.* \n*Example " + (prefix + _0x12d243) + " 2348039607375,your_Message*", {}, "", _0x358984);
+      return await _0x358984.send("*provide number with msg to send Anonymously.* \n*Example " + (prefix + _0x12d243) + " 233542680612,your_Message*", {}, "", _0x358984);
     }
     if (_0x358984.isCreator && _0x32512b === "info") {
       return await _0x358984.reply(isAnnonyMsgAlive == "" ? "*Theres no Anonymous Chat created yet*" : "*Anonymous Chat Recivers*\n_" + isAnnonyMsgAlive + "_");
@@ -440,7 +440,7 @@ smd({
       _0x3079e2.reciever = _0x48975a[0];
       _0x3079e2.msgStatus = true;
       _0x3079e2.senderMsg = _0x358984;
-      _0x5f656f = "*QUEEN_ALYA • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
+      _0x5f656f = "*Reverse King • 𝑨𝒏𝒐𝒏𝒚𝒎𝒐𝒖𝒔 𝑴𝒔𝒈*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
       isAnnonyMsgAlive = isAnnonyMsgAlive + "," + _0x3079e2.reciever;
       await _0x358984.bot.sendMessage(_0x3079e2.reciever, {
         text: _0x5f656f
@@ -462,7 +462,7 @@ smd({
       if (_0x2dfb59.length < 3) {
         return;
       }
-      if (_0x2acf30.reply_text.includes("Queen_Alya • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("Queen_Alya • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
+      if (_0x2acf30.reply_text.includes("Reverse King • 𝑨𝒏𝒐𝒏𝒚𝒎𝒐𝒖𝒔 𝑴𝒔𝒈") && _0x2dfb59[0].includes("Reverse King • 𝑨𝒏𝒐𝒏𝒚𝒎𝒐𝒖𝒔 𝑴𝒔𝒈") && _0x2dfb59[2].includes("Msg_Id")) {
         let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
         let _0x2ecd2a = astro_patch_AnonyMsg[_0x1b0d01];
         if (!_0x2ecd2a) {
