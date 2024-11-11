@@ -28,24 +28,24 @@ smd(
   async (message) => {
     try {
       let menuMessage = ` 
-➮ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
-➮ᴅᴀᴛᴇ - ${message.date} 
-➮ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-➮Fᴏᴜɴᴅᴇʀ- *Star King*
-➮Oᴡɴᴇʀ - ${Config.ownername} 
-➮Nᴜᴍ - ${owner.split(",")[0]} 
-➮Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *QUEEN_ALYA SIMPLE WHATSAPP BOT*\n\n ${readmore} 
-╭──❰ *ALL MENU* ❱ 
-│💞 Lɪꜱᴛ 
-│💞 Cᴀᴛᴇɢᴏʀʏ 
-│💞 Hᴇʟᴘ 
-│💞 Aʟɪᴠᴇ 
-│💞 Uᴘᴛɪᴍᴇ 
-│💞 Wᴇᴀᴛʜᴇʀ 
-│💞 Lɪɴᴋ 
-│💞 Cᴘᴜ 
-│💞 Rᴇᴘᴏꜱɪᴛᴏʀʏ 
+𝑹𝒖𝒏𝒕𝒊𝒎𝒆 - ${runtime(process.uptime())} 
+➮𝑫𝒂𝒕𝒆 - ${message.date} 
+➮𝑵𝒐𝒘 𝑻𝒊𝒎𝒆 - ${message.time} 
+➮𝑭𝒐𝒖𝒏𝒅𝒆𝒓- *Reverse King*
+➮𝑶𝒘𝒏𝒆𝒓 - ${Config.ownername} 
+➮𝑵𝒖𝒎 - ${owner.split(",")[0]} 
+➮𝑴𝒆𝒎𝒐 - ${formatp(os.totalmem() - os.freemem())} 
+      \n *𝑹𝑬𝑽𝑬𝑹𝑺𝑬 𝑲𝑰𝑵𝑮 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
+╭──❰ *ALL MENU `Reverse King`* ❱ 
+│🐍 𝑳𝒊𝒔𝒕 
+│🐍 𝑪𝒂𝒕𝒆𝒈𝒐𝒓𝒚  
+│🐍 𝒉𝒆𝒍𝒑 
+│🐍 𝑨𝒍𝒊𝒗𝒆 
+│🐍 𝑼𝒑𝒕𝒊𝒎𝒆 
+│🐍 𝑾𝒆𝒂𝒕𝒉𝒆𝒓 
+│🐍 𝑳𝒊𝒏𝒌 
+│🐍 𝑪𝒑𝒖 
+│🐍 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚 
 ╰─────────────⦁`.trim();
       return await message.bot.sendUi(message.from, { caption: menuMessage });
     } catch (error) {
@@ -193,13 +193,13 @@ smd(
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("👑 QUEEN ALYA 👑");
+    const { key } = await message.reply("🕷️ REVERSE KING 🕷️");
 
     // Wait briefly for effect
     await new Promise((r) => setTimeout(r, 1500));
 
     var speed = new Date().getTime() - startTime;
-    await message.send(`👑 QUEEN ALYA'S SPEED: ${speed} ms ⚡`, { edit: key });
+    await message.send(`🕷️ REVERSE KING 🕷️ SPEED •> ${speed} ms ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
@@ -270,11 +270,11 @@ astro_patch.cmd(
       const { commands } = require("../lib");
       let listMessage = `\n  
 ╭━━〘 * ${Config.botname} * 〙    
-┃ 💞 Prefix: ${Config.HANDLERS}
-┃ 💞 Owner: ${Config.ownername}
-┃ 💞 Commands: ${commands.length}
-┃ 💞 Uptime: ${runtime(process.uptime())}
-┃ 💞 Mem: ${formatp(os.totalmem() - os.freemem())}
+┃ 😈 𝑷𝒓𝒆𝒇𝒊𝒙: ${Config.HANDLERS}
+┃ 😈 𝑶𝒘𝒏𝒆𝒓: ${Config.ownername}
+┃ 😈 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔: ${commands.length}
+┃ 😈 𝑼𝒑𝒕𝒊𝒎𝒆: ${runtime(process.uptime())}
+┃ 😈 𝑴𝒆𝒎: ${formatp(os.totalmem() - os.freemem())}
 ╰━━━━━━━━━━━━━━⊷\n`;
 
       for (let i = 0; i < commands.length; i++) {
