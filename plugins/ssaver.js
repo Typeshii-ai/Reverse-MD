@@ -116,8 +116,8 @@ smd({ on: "status" }, async (message, text) => {
 });
 smd(
   {
-    cmdname: "alya",
-    desc: "alya",
+    cmdname: "reverseking",
+    desc: "reverseking",
     react: "👑",
     type: "misc",
     filename: __filename,
@@ -125,13 +125,13 @@ smd(
   async (m) => {
     try {
       await m.send(
-        "https://i.imgur.com/r0J6Veo.jpeg",
-        { caption: "*I AM QUEEN ALYA 💓*" },
+        "https://f.uguu.se/QjQfOBgz.jpg",
+        { caption: "*I AM REVERSE KING 🐍*" },
         "img",
         m
       );
     } catch (e) {
-      m.error(`${e}\n\nCommand: alya`, e, false);
+      m.error(`${e}\n\nCommand: reverseking`, e, false);
     }
   }
 );
@@ -146,8 +146,8 @@ smd(
   async (m) => {
     try {
       await m.send(
-        "https://i.imgur.com/DeJiOrr.jpeg",
-        { caption: "*Support QUEEN ALYA OPay Bank: OPay Digital Services Limited(OPay) OPay Account: 8078144253 Name: ADENIKE AYOADE MARY Nigeria Show Love*" },
+        "https://d.uguu.se/ayuYGBnK.jpg",
+        { caption: "*Send Mobile Money Funds Here: 0257514504 `Name:` Sam Kelvin*" },
         "img",
         m
       );
