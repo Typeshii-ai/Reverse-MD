@@ -103,9 +103,9 @@ smd({
 },
 async(message, text,{smd}) => {
    try{                
-let txt = `╭───── *『 MONGODB NOTES 』* ───◆
+let txt = `╭───── *『 MONGODB NOTES `ReverseKing` 』* ───◆
 𖣘 Here You Can Store Notes For Later Use
-𖣘 *------------------------------------------*
+𖣘 *----------|-----|-----|-----|-----|-----|---|----*
 𖣘  𖣘┤  *✯░▒▓▆▅▃▂▁ ADD NEW NOTE ▁▂▃▅▆▓▒░⦿*
 𖣘  𖣘✭ *Cmd :* ${prefix+smd} add 'Your Text'
 𖣘  𖣘✭ *Usage :* Save Text in MongoDb Server
