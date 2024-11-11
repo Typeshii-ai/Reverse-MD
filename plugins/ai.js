@@ -928,7 +928,7 @@ smd(
       }
 
       // Send a loading message
-      await m.send("Alya is thinking 🤔");
+      await m.send("Reverse King is thinking 🤔");
 
       // Define the API URL
       const apiUrl = `https://giftedapis.us.kg/api/ai/blackbox?q=${encodeURIComponent(query)}&apikey=_0x5aff35,_0x187643`;
