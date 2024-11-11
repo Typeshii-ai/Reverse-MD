@@ -90,7 +90,7 @@ astro_patch.smd({
   try {
     // Display loading messages
     const loadingMessages = [
-      "You Are Now In The Presence OF *QUEEN ALYA 👑* Be Humbled 🙇"];
+      "Bruv Chill! Hope you know Reverse King is your Boss innit?? You are in The Presence OF *Reverse King ❤️💰* Be Humbled or Get Humbled 🤣"];
     for (const msg of loadingMessages) {
       await context.sendMessage(context.chat, { text: msg });
       await sleep(1000); // Wait for 1 second between messages
@@ -105,13 +105,13 @@ astro_patch.smd({
 
     // Anime-style greetings based on time of day
     if (hours >= 5 && hours < 12) {
-      greeting = "🌸 *Good Morning* 🌸 - Time for a fresh start!";
+      greeting = "🌸 *Good Morning* 🌸 - Reverse King is the Boss innit?";
     } else if (hours >= 12 && hours < 18) {
-      greeting = "🌞 *Good Afternoon* 🌞 - Keep up the great work!";
+      greeting = "🌞 *Good Afternoon* 🌞 - Greetings from Reverse King ( Your Boss)";
     } else if (hours >= 18 && hours < 22) {
-      greeting = "🌆 *Good Evening* 🌆 - Unwind and relax!";
+      greeting = "🌆 *Good Evening* 🌆 - Reverse King is cool innit?";
     } else {
-      greeting = "🌙 *Good Night* 🌙 - Rest and recharge!";
+      greeting = "🌙 *Good Night* 🌙 - What's Good? Reverse King";
     }
 
     // Choose the next menu design
@@ -134,11 +134,11 @@ astro_patch.smd({
     const footer = design.footer;
 
     let menuContent = `${header}`;
-    menuContent += `${lineSeparator}👑 *Owner:* ${Config.ownername}\n`;
-    menuContent += `${lineSeparator}🕒 *Uptime:* ${runtime(process.uptime())}\n`;
-    menuContent += `${lineSeparator}💻 *RAM Usage:* ${formatp(os.totalmem() - os.freemem())}\n`;
-    menuContent += `${lineSeparator}📅 *Date:* ${currentDate}\n`;
-    menuContent += `${lineSeparator}📊 *Total Commands:* ${commands.length}\n`;
+    menuContent += `${lineSeparator}🐉 *Owner:* ${Config.ownername}\n`;
+    menuContent += `${lineSeparator}🤷🏽‍♂️ *Uptime:* ${runtime(process.uptime())}\n`;
+    menuContent += `${lineSeparator}😋 *RAM Usage:* ${formatp(os.totalmem() - os.freemem())}\n`;
+    menuContent += `${lineSeparator}⏰ *Date:* ${currentDate}\n`;
+    menuContent += `${lineSeparator}⏳ *Total Commands:* ${commands.length}\n`;
     menuContent += `${lineSeparator}${greeting}\n\n`;
 
     // List commands by category with decorative separators
@@ -151,7 +151,7 @@ astro_patch.smd({
     }
 
     menuContent += `\n${footer}\n\n${design.emoji} *${Config.botname}* - Your assistant\n`;
-    menuContent += `©2024 *STAR KING*\n${readmore}`;
+    menuContent += `©2024 *Reverse King*\n${readmore}`;
 
     // Send the menu with a "forwarded" tag
     const menuOptions = {
@@ -160,8 +160,8 @@ astro_patch.smd({
         'forwardingScore': 100, 
         'isForwarded': true,
         'externalAdReply': {
-          'title': 'QUEEN ALYA',
-          'sourceUrl': 'https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D'
+          'title': 'Reverse King',
+          'sourceUrl': 'https://whatsapp.com/channel/0029Vao11A529758tTEQZo1e'
         }
       },
       'ephemeralExpiration': 3000
