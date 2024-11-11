@@ -31,10 +31,10 @@ const q =await message.bot.fakeMessage("order")
 let contextInfo = {...(await message.bot.contextInfo() )}
 let timenow =`
 ╭────────────────╮
-│    *${wish}* 
-│     *ᴛɪᴍᴇ* ⌚ ${time} 
-│     *Date* 🎲   ${date} 
-│   ${Config.caption}
+𖣘    *${wish}* 
+𖣘     *ᴛɪᴍᴇ* ⌚ ${time} 
+𖣘     *Date* 🎲   ${date} 
+𖣘   ${Config.caption}
 ╰────────────────╯
 `
 await message.send(timenow, {contextInfo : contextInfo },"asta",  q )
