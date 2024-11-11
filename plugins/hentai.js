@@ -48,7 +48,7 @@ smd(
       }
 
       // Send a loading message
-      await m.send("Alya is fetching the results...");
+      await m.send("ReverseKing is fetching the results...");
 
       // Define the API URL for fetching search results
       const apiUrl = `https://giftedapis.us.kg/api/search/xnxxsearch?query=${encodeURIComponent(query)}&apikey=_0x5aff35,_0x187643`;
