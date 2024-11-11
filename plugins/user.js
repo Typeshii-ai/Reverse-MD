@@ -97,7 +97,7 @@ smd({
       try {
         _0x5ae446 = await _0x5b9714.bot.profilePictureUrl(_0x354e18, "image");
       } catch (_0x17156a) {
-        _0x5ae446 = 'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg';
+        _0x5ae446 = 'https://f.uguu.se/QjQfOBgz.jpg';
       }
       var _0xf3d6e0 = await _0x5b9714.bot.getName(_0x354e18);
       return await _0x5b9714.bot.sendMessage(_0x5b9714.jid, {
