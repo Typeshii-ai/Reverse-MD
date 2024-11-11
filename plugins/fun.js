@@ -143,9 +143,9 @@ smd(
       
       // Structuring the message with reduced space
       const message = `╔════════════════◇\n` +
-                      `║ *🛐Content:* ${verse.trim()}\n` +  // trim() removes any unnecessary whitespace
-                      `║ *✨Reference:* ${reference}\n` +
-                      `║ *✨Author:* > Made By Queen alya\n` +
+                      `║ *😈Content:* ${verse.trim()}\n` +  // trim() removes any unnecessary whitespace
+                      `║ *🧑‍💻Reference:* ${reference}\n` +
+                      `║ *🐍Author:* > Made By Reverse King\n` +
                       `╚════════════════◇`;
 
       await m.send(message);
