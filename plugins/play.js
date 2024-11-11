@@ -45,7 +45,7 @@ smd({
     let _0x4342ba = await smdBuffer(_0x4f86cb.thumbnail);
     await _0x213b75.bot.sendMessage(_0x213b75.jid, {
       'image': _0x4342ba,
-      'caption': "\n*Queen_Alya • ᴍᴜꜱɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n_Alya is singing..._\n"
+      'caption': "\n*ReverseKing • ᴍᴜꜱɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n_Reverse King is singing..._\n"
     });
 
     // Use the new API to get download links
@@ -287,7 +287,7 @@ smd({
     let _0x4342ba = await smdBuffer(_0x4f86cb.thumbnail);
     await _0x213b75.bot.sendMessage(_0x213b75.jid, {
       'image': _0x4342ba,
-      'caption': "\n*Queen_Alya • ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n_Alya is preparing the video..._\n"
+      'caption': "\n*Reverse King • ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n*Title :* " + _0x4f86cb.title + "\n*Url :* " + _0x4f86cb.url + "\n*Description :* " + _0x4f86cb.timestamp + "\n*Views :* " + _0x4f86cb.views + "\n*Uploaded :* " + _0x4f86cb.ago + "\n*Author :* " + _0x4f86cb.author.name + "\n\n_Alya is preparing the video..._\n"
     });
 
     // Use the new API to get download links
