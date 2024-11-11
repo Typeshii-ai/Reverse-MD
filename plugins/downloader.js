@@ -58,7 +58,7 @@ const path = require ("path");
 *Followers:* ${followers}
 *Description:* ${description || "No description provided"}
 
-\t*Queen_Alya WA STALKER*
+\t*Reverse King WA STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, img, caption, m, {}, "image");
@@ -112,7 +112,7 @@ smd(
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*Queen_Alya IG STALKER*
+\t*Reverse King IG STALKER*
 `;
 
       await m.send(caption);
@@ -171,7 +171,7 @@ smd(
 *Account Created:* ${created_at}
 *Last Updated:* ${updated_at}
 
-\t*Queen_Alya GitHub STALKER*
+\t*Reverse King GitHub STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, profile_pic, caption, m, {}, "image");
@@ -628,7 +628,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "Queen_Alya-Md-tts.m4a"
+         fileName: "Reverse King-Md-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -644,7 +644,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "Queen_Alya-Md-tts.m4a"
+         fileName: "Reverse King-Md-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -655,7 +655,7 @@ smd(
  });
  smd({
    pattern: "sound",
-    alias: ["Queen_Alyai", "aine","mentalism","alive","waso"],
+    alias: ["Reverse_King", "aine","mentalism","alive","waso"],
    desc: "Downloads ringtone.",
    category: "downloader",
    filename: __filename,
@@ -676,7 +676,7 @@ smd(
      };
      let _0x4737bb = {
        audio: _0x2ba501,
-       fileName: "alya-Md tiktok Sound" + _0x19c223 + ".m4a",
+       fileName: "Reverse-Md tiktok Sound" + _0x19c223 + ".m4a",
        mimetype: "audio/mpeg",
        ptt: true,
        contextInfo: _0x29fdd9
