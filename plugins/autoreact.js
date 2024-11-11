@@ -27,11 +27,11 @@ smd({
       if (action === 'false') {
         if (checkinfo.autoreaction === 'false') return await message.reply('*_Auto_Reaction Already Disabled_*');
         await bot_.updateOne({ 'id': `bot_${message.user}` }, { 'autoreaction': 'false' });
-        await message.reply('*_Auto_Reaction Succesfully Disable!_*');
+        await message.reply('*_Auto_Reaction Succesfully Disable! `Reverse King`_*');
       } else if (action === 'cmd' || action === 'all' || action === 'true') {
-        if (checkinfo.autoreaction === action) return await message.reply('*_Auto_Reaction already enabled!_*');
+        if (checkinfo.autoreaction === action) return await message.reply('*_Auto_Reaction already enabled! `Reverse King`_*');
         await bot_.updateOne({ 'id': `bot_${message.user}` }, { 'autoreaction': action });
-        await message.send('*_Auto_Reaction succesfully enabled!_*');
+        await message.send('*_Auto_Reaction succesfully enabled! `Reverse King`_*');
       } else {
         await message.reply('*_Please provide valid instructions!_*\n*_Use true/all/cmd/off to set autoreaction!_*');
       }
