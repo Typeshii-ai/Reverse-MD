@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Ghana";
 global.github = process.env.GITHUB || "https://github.com/Reverseking1/Reverse-MD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vao11A529758tTEQZo1e";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vao11A529758tTEQZo1e";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "./lib/alya.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "./lib/reverse.jpg";
 global.devs = "233542680612";
 global.sudo = process.env.SUDO || "233542680612";
 global.owner = process.env.OWNER_NUMBER || "233542680612";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "+",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_ALYA™`",
-  author: process.env.PACK_AUTHER || "QUEEN_ALYA",
-  packname: process.env.PACK_NAME || "A L Y A",
-  botname: process.env.BOT_NAME || "QUEEN_ALYA",
-  ownername: process.env.OWNER_NAME || "STAR KING",
+  caption: process.env.CAPTION || "`REVERSEKING™`",
+  author: process.env.PACK_AUTHER || "REVERSE KING",
+  packname: process.env.PACK_NAME || "R E V E R S E",
+  botname: process.env.BOT_NAME || "REVERSE KING",
+  ownername: process.env.OWNER_NAME || "REVERSE KING",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "A L Y A").toUpperCase(),
+  LANG: (process.env.THEME || "R E V E R S E").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = true;
