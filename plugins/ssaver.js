@@ -115,6 +115,25 @@ smd({ on: "status" }, async (message, text) => {
   }
 });
 smd({
+  cmdname: "punch",
+  desc: "Punch someone virtually!",
+  react: "",
+  type: "fun",
+  filename: __filename,
+}, async (m, client) => {
+  try {
+    let mentioned = m.mentionedJidList[0] || m.from;
+    await m.send(`*PUNCH!* ${mentioned} was punched by ${m.from}`, {
+      react: {
+        text: "Ouch!",
+        face: "😓",
+      },
+    });
+  } catch (e) {
+    m.error(`${e}\n\nCommand: punch`, e, false);
+  }
+});
+smd({
   cmdname: "reverseking",
   desc: "reverseking",
   react: "",
