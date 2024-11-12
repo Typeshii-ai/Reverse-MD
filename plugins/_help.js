@@ -31,21 +31,21 @@ smd(
 ➮ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
 ➮ᴅᴀᴛᴇ - ${message.date} 
 ➮ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-➮Fᴏᴜɴᴅᴇʀ- *Star King*
+➮Fᴏᴜɴᴅᴇʀ- *Reverse King*
 ➮Oᴡɴᴇʀ - ${Config.ownername} 
 ➮Nᴜᴍ - ${owner.split(",")[0]} 
 ➮Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *QUEEN_ALYA SIMPLE WHATSAPP BOT*\n\n ${readmore} 
-╭──❰ *ALL MENU* ❱ 
-│💞 Lɪꜱᴛ 
-│💞 Cᴀᴛᴇɢᴏʀʏ 
-│💞 Hᴇʟᴘ 
-│💞 Aʟɪᴠᴇ 
-│💞 Uᴘᴛɪᴍᴇ 
-│💞 Wᴇᴀᴛʜᴇʀ 
-│💞 Lɪɴᴋ 
-│💞 Cᴘᴜ 
-│💞 Rᴇᴘᴏꜱɪᴛᴏʀʏ 
+      \n *REVERSE KING Your Low Key Boss`*\n\n ${readmore} 
+╭──❰ *ALL MENU `Reverse King`* ❱ 
+𖣘🐉 Lɪꜱᴛ 
+𖣘🐉 Cᴀᴛᴇɢᴏʀʏ 
+𖣘🐉 Hᴇʟᴘ 
+𖣘🐉 Aʟɪᴠᴇ 
+𖣘🐉 Uᴘᴛɪᴍᴇ 
+𖣘🐉 Wᴇᴀᴛʜᴇʀ 
+𖣘🐉 Lɪɴᴋ 
+𖣘🐉 Cᴘᴜ 
+𖣘🐉 Rᴇᴘᴏꜱɪᴛᴏʀʏ 
 ╰─────────────⦁`.trim();
       return await message.bot.sendUi(message.from, { caption: menuMessage });
     } catch (error) {
@@ -193,13 +193,13 @@ smd(
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("👑 QUEEN ALYA 👑");
+    const { key } = await message.reply("🐍 REVERSE KING 🐍");
 
     // Wait briefly for effect
     await new Promise((r) => setTimeout(r, 1500));
 
     var speed = new Date().getTime() - startTime;
-    await message.send(`👑 QUEEN ALYA'S SPEED: ${speed} ms ⚡`, { edit: key });
+    await message.send(`🐍 REVERSE KING'S SPEED: ${speed} ms ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
