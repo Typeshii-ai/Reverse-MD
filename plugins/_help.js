@@ -193,13 +193,13 @@ smd(
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("🐍 REVERSE KING 🐍");
+    const { key } = await message.reply("👑 REVERSE KING 👑");
 
     // Wait briefly for effect
     await new Promise((r) => setTimeout(r, 1500));
 
     var speed = new Date().getTime() - startTime;
-    await message.send(`🐍 REVERSE KING'S SPEED: ${speed} ms ⚡`, { edit: key });
+    await message.send(`🐍 REVERSE KING SPEED: ${speed} ms ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
