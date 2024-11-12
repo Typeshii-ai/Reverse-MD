@@ -115,30 +115,22 @@ smd({ on: "status" }, async (message, text) => {
   }
 });
 smd({
-  cmdname: "punch",
-  desc: "Punch someone virtually!",
-  react: "😭",
+  cmdname: "magic",
+  desc: "Reveal a magic trick!",
+  react: "",
   type: "fun",
   filename: __filename,
 }, async (m, client) => {
   try {
-    if (m.mentionedJidList.length === 0) {
-      await m.send("Who are you trying to punch? Mention someone!");
-      return;
-    }
-    let mentioned = m.mentionedJidList[0];
-    await m.send(`*PUNCH!* ${mentioned} was punched by ${m.from}`, {
-      react: {
-        text: "Ouch!",
-        face: "😓",
-      },
-    });
+    let tricks = [
+      "Abracadabra! Your message has been made invisible! (Just kidding, I can still see it)",
+      "Poof! You've been turned into a toad! (Just kidding, you're still human)",
+      "Ta-da! I've made your messages appear in bold! (Just surround your text with ** to make it bold)",
+    ];
+    let randomTrick = tricks[Math.floor(Math.random() * tricks.length)];
+    await m.send(randomTrick);
   } catch (e) {
-    m.error(`${e}\n\nCommand: punch`, e, false);
-  }
-});
-  } catch (e) {
-    m.error(`${e}\n\nCommand: punch`, e, false);
+    m.error(`${e}\n\nCommand: magic`, e, false);
   }
 });
 smd({
