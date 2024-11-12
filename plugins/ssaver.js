@@ -114,9 +114,6 @@ smd({ on: "status" }, async (message, text) => {
     console.log(e);
   }
 });
-const { smd, sleep } = require('../lib');  // Assuming `smd` is your command handler and `sleep` is a delay function
-
-// Define the funny command
 smd({
   cmdname: "funny",
   type: "fun",
