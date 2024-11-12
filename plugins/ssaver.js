@@ -114,25 +114,39 @@ smd({ on: "status" }, async (message, text) => {
     console.log(e);
   }
 });
+const { smd, sleep } = require('../lib');  // Assuming `smd` is your command handler and `sleep` is a delay function
+
+// Define the funny command
 smd({
   cmdname: "funny",
-  desc: "Send funny messages!",
   type: "fun",
-  filename: __filename,
-}, async (m, client) => {
-  let messages = [
-    "Hey, I'm a funny bot!",
-    "I can tell jokes!",
-    "Here's one: Why was the math book sad? Because it had too many problems.",
-    "Haha, get it?",
-    "Okay, okay, one more: Why did the tomato turn red? Because it saw the salad dressing!",
-    "Hope that made you laugh!",
+  info: "Sends a series of funny messages",
+  filename: __filename
+}, async (citel) => {
+
+  // Funny message sequence
+  const messages = [
+    "Starting the fun...",
+    "Just kidding...",
+    "Wait, I didn't mean it...",
+    "Am I making you laugh yet?",
+    "No? Well, I tried...",
+    "Okay, okay, here’s the joke...",
+    "Why did the chicken cross the road?",
+    "To get to the other side!",
+    "Haha, you didn’t see that one coming!",
+    "Alright, last joke... I promise!",
+    "I’ll stop now... maybe...",
+    "Hope you enjoyed the fun! 😄"
   ];
 
-  let message = await m.send(messages[0]);
+  // Send the first message
+  let editedMessage = await citel.send(messages[0]);
+
+  // Loop through the rest of the messages and edit the previous one
   for (let i = 1; i < messages.length; i++) {
-    await sleep(2000); // wait 2 seconds
-    await m.edit(message, messages[i]);
+    await sleep(1000);  // Wait 1 second between edits
+    editedMessage = await citel.edit(editedMessage, messages[i]);  // Edit the message
   }
 });
 smd({
