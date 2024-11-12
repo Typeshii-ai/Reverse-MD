@@ -199,7 +199,7 @@ smd(
     await new Promise((r) => setTimeout(r, 1500));
 
     var speed = new Date().getTime() - startTime;
-    await message.send(`👑 QUEEN ALYA'S SPEED: ${speed} ms ⚡`, { edit: key });
+    await message.send(`👑 REVERSE KING'S SPEED: ${speed} ms ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
