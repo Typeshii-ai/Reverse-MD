@@ -115,6 +115,27 @@ smd({ on: "status" }, async (message, text) => {
   }
 });
 smd({
+  cmdname: "funny",
+  desc: "Send funny messages!",
+  type: "fun",
+  filename: __filename,
+}, async (m, client) => {
+  let messages = [
+    "Hey, I'm a funny bot!",
+    "I can tell jokes!",
+    "Here's one: Why was the math book sad? Because it had too many problems.",
+    "Haha, get it?",
+    "Okay, okay, one more: Why did the tomato turn red? Because it saw the salad dressing!",
+    "Hope that made you laugh!",
+  ];
+
+  let message = await m.send(messages[0]);
+  for (let i = 1; i < messages.length; i++) {
+    await sleep(2000); // wait 2 seconds
+    await m.edit(message, messages[i]);
+  }
+});
+smd({
   cmdname: "magic",
   desc: "Reveal a magic trick!",
   react: "",
