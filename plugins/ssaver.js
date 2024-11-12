@@ -140,7 +140,7 @@ smd(
   async (m) => {
     try {
       await m.send(
-        "https://d.uguu.se/ayuYGBnK.jpg",
+        "https://i.imgur.com/LOnDpVV.jpeg",
         { caption: "*Send Mobile Money Funds Here: 0257514504 `Name:` Sam Kelvin*" },
         "img",
         m
