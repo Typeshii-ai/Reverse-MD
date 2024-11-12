@@ -193,7 +193,7 @@ smd(
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("👑 QUEEN ALYA 👑");
+    const { key } = await message.reply("👑 REVERSE KING 👑");
 
     // Wait briefly for effect
     await new Promise((r) => setTimeout(r, 1500));
