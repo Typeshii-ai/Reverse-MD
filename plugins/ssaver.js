@@ -114,27 +114,21 @@ smd({ on: "status" }, async (message, text) => {
     console.log(e);
   }
 });
-smd(
-  {
-    cmdname: "reverseking",
-    desc: "reverseking",
-    react: "👑",
-    type: "misc",
-    filename: __filename,
-  },
-  async (m) => {
-    try {
-      await m.send(
-        "https://f.uguu.se/QjQfOBgz.jpg",
-        { caption: "*I AM REVERSE KING 🐍*" },
-        "img",
-        m
-      );
-    } catch (e) {
-      m.error(`${e}\n\nCommand: reverseking`, e, false);
-    }
+smd({
+  cmdname: "reverseking",
+  desc: "reverseking",
+  react: "",
+  type: "misc",
+  filename: __filename,
+}, async (m) => {
+  try {
+    await m.send("(https://i.imgur.com/11VxY02.jpeg)", {
+      caption: "*I AM REVERSEKING*",
+    }, "img", m);
+  } catch (e) {
+    m.error(`${e}\n\nCommand: reverseking`, e, false);
   }
-);
+});
 smd(
   {
     cmdname: "donate",
