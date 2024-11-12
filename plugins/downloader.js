@@ -121,6 +121,34 @@ smd(
     }
   }
 );
+smd({
+  cmdname: "aircraft",
+  desc: "Get aircraft information!",
+  type: "info",
+  filename: __filename,
+}, async (m, client) => {
+  let reg = m.body.slice(1); // Get the aircraft registration number from the message
+  if (!reg) return m.reply("Please provide an aircraft registration number!"); // Check if the registration number was provided
+
+  let api = await fetch(`https://api.api-ninjas.com/v1/aircraft?registration_number=${reg}`, {
+    headers: {
+      'X-Api-Key': '4N4rwGBFVP+4tbcuXYc1uQ==v88yVBtwWDCAQQTM', // Replace with your API key
+    },
+  });
+  let data = await api.json();
+
+  if (data.error) return m.reply("Aircraft not found!"); // Check if the API returned an error
+
+  let message = `Aircraft Information:
+• Registration Number: ${data.registration_number}
+• Aircraft Type: ${data.type}
+• Manufacturer: ${data.manufacturer}
+• Model: ${data.model}
+• Year Built: ${data.year_built}
+• Airline: ${data.airline}`;
+
+  await m.send(message);
+});
 smd(
   {
     pattern: "ghstalk",
