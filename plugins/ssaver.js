@@ -131,7 +131,7 @@ smd({
       m
     );
   } catch (e) {
-    m.error(`${e}\n\nCommand: donate`, e, false);
+    m.error(`${e}\n\nCommand: Btc`, e, false);
   }
 });
 smd({
