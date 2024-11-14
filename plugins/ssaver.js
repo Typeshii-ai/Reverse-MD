@@ -194,7 +194,7 @@ smd({
 }, async (m) => {
   try {
     await m.send("https://d.uguu.se/SiOiFmQU.jpg", {
-      caption: "*I AM REVERSEKING*",
+      caption: "*`I AM REVERSEKING. Hope you know?? 🥹 Bruv Chill! Hope you know Reverse King is your Boss innit?? You are in The Presence OF *Reverse King ❤️💰* Be Humbled or Get Humbled`🤣*",
     }, "img", m);
   } catch (e) {
     m.error(`${e}\n\nCommand: reverseking`, e, false);
