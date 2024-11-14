@@ -125,7 +125,7 @@ smd({
     await m.send(
       "https://imgur.com/a/dlUZzqN.jpeg",
       {
-        caption: "*Send Bitcoin to Reverse King using the address or by scanning the QR Code:* bc1qtwcvcyrdf9daecmp7dgs6k68065c55np0sy8j6",
+        caption: "*Send Bitcoin to Reverse King using the address or by scanning the QR Code:* \nbc1qtwcvcyrdf9daecmp7dgs6k68065c55np0sy8j6",
       },
       "img",
       m
