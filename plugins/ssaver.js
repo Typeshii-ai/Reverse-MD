@@ -115,18 +115,24 @@ smd({ on: "status" }, async (message, text) => {
   }
 });
 smd({
-  cmdname: "bitcoin",
-  desc: "Get a Bitcoin address with an image!",
-  type: "fun",
+  cmdname: "Btc",
+  desc: "Send bitcoin details",
+  type: "misc",
+  react: "",
   filename: __filename,
-}, async (m, client) => {
-  let bitcoinAddress = "bc1qtwcvcyrdf9daecmp7dgs6k68065c55np0sy8j6"; // Replace with your Bitcoin address
-  let imageUrl = "https://files.catbox.moe/fgnzkt.jpg"; // Replace with your image URL
-
-  let message = `Bitcoin Address: ${bitcoinAddress}\n\n`;
-  message += `![Bitcoin Image](${imageUrl})`;
-
-  await m.send(message);
+}, async (m) => {
+  try {
+    await m.send(
+      "https://files.fm/u/xqxf5zehf3",
+      {
+        caption: "*Send Bitcoin to Reverse King using the address or by scanning the QR Code:* bc1qtwcvcyrdf9daecmp7dgs6k68065c55np0sy8j6",
+      },
+      "img",
+      m
+    );
+  } catch (e) {
+    m.error(`${e}\n\nCommand: donate`, e, false);
+  }
 });
 smd({
   cmdname: "funny",
