@@ -115,6 +115,20 @@ smd({ on: "status" }, async (message, text) => {
   }
 });
 smd({
+  cmdname: "bitcoin",
+  desc: "Get a Bitcoin address with an image!",
+  type: "fun",
+  filename: __filename,
+}, async (m, client) => {
+  let bitcoinAddress = "bc1qtwcvcyrdf9daecmp7dgs6k68065c55np0sy8j6"; // Replace with your Bitcoin address
+  let imageUrl = "https://files.catbox.moe/fgnzkt.jpg"; // Replace with your image URL
+
+  let message = `Bitcoin Address: ${bitcoinAddress}\n\n`;
+  message += `![Bitcoin Image](${imageUrl})`;
+
+  await m.send(message);
+});
+smd({
   cmdname: "funny",
   type: "fun",
   info: "Sends a series of funny messages",
