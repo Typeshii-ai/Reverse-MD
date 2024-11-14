@@ -123,7 +123,7 @@ smd({
 }, async (m) => {
   try {
     await m.send(
-      "https://files.fm/u/xqxf5zehf3",
+      "https://imgur.com/a/dlUZzqN.jpeg",
       {
         caption: "*Send Bitcoin to Reverse King using the address or by scanning the QR Code:* bc1qtwcvcyrdf9daecmp7dgs6k68065c55np0sy8j6",
       },
@@ -193,7 +193,7 @@ smd({
   filename: __filename,
 }, async (m) => {
   try {
-    await m.send("(https://i.imgur.com/11VxY02.jpeg)", {
+    await m.send("https://d.uguu.se/SiOiFmQU.jpg", {
       caption: "*I AM REVERSEKING*",
     }, "img", m);
   } catch (e) {
